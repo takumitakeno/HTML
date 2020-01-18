@@ -3,36 +3,39 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/*clearfix追加*/
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
 
 header {
-	width: 100%
-	margin:0 auto;
+	width: 100%;
+	padding: 20px 0;
 	text-align: center;
 }
 
 .hedaer-text{
-	line-height: 20px;
-
+	font-size: 32px;
 }
 
-nav{
-
-}
 .nav-list{
 	text-align: center;
-	padding: 15px;
+	padding: 15px 0;
 	margin: 0 auto;
+	border-bottom: 1px solid #848282;
+    border-top: 1px solid #848282;
 }
 .nav-list-item{
 	list-style: none;
-	margin: 20px;
+	display: inline-block;
+	margin: 0 20px;
 }
 
 .main{
 	width: 800px;
-	height: 600px;
-	margin: top bottom 50px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 
 .main-1{
@@ -57,6 +60,7 @@ nav{
 	width: 200px;
 	height: 200px;
 	background-color: #93ffab;
+	float: left;
 }
 .main-5{
 	width: 200px;
@@ -74,11 +78,12 @@ nav{
 	width: 200px;
 	height: 200px;
 	background-color: #e9ffa5;
+	float: left;
 }
 .main-8{
 	width: 200px;
-	height: 200px
-	background-color#e4ff8d;
+	height: 200px;
+	background-color:#e4ff8d;
 	float: left;
 }
 .main-9{
@@ -91,6 +96,7 @@ nav{
 	width: 200px;
 	height: 200px;
 	background-color: #bad3ff;
+	float: left;
 }
 .main-11{
 	width: 200px;
@@ -98,7 +104,7 @@ nav{
 	background-color: #a4c6ff;
 	float: left;
 }
-.main-11{
+.main-12{
 	width: 200px;
 	height: 200px;
 	background-color: #8eb8ff;
@@ -109,4 +115,9 @@ footer{
 	height: 120px;
 	text-align: center;
 	background-color: #848282;
+	line-height: 120px;
+}
+/*footer-text追加*/
+.footer-text{
+	color:white;
 }
