@@ -6,42 +6,45 @@
 .main-visual{
 	width: 100%;
 	height: 400px;
-	padding: 20px;
+	/*padding削除*/
 	background-image: url(img/mv.jpg);
 	background-size: cover;
 	background-position: bottom;
 }
 
 .header-text{
-	color: silver;
-	font-size: 32px;
+	/*padding追加*/
+	/*その他コード削除*/
+	padding: 20px;
 }
 
-.blog{
+/*main追加*/
+main{
 	margin: 50px auto;
 	width: 840px;
 }
-
+/*margintopからbottomに変更*/
 .blog-box-1{
-	padding-bottom: 30px;
+	margin-bottom:30px;
 	border-bottom: 1px solid silver;
+	padding-bottom: 30px;
 }
 
 .blog-box-2{
-	margin-top:30px;
-	padding-bottom: 30px;
+	margin-bottom: :30px;
 	border-bottom: 1px solid silver;
+	padding-bottom: 30px;
 }
 
 .blog-box-3{
-	margin-top:30px;
-	padding-bottom: 30px;
+	margin-top: 30px;
 	border-bottom: 1px solid silver;
+	padding-bottom: 30px;
 }
 
 .blog-box-4{
 	margin-top:30px;
-	padding-bottom: 30px;
 	border-bottom: 1px solid silver;
+	padding-bottom: 30px;
 }
 
