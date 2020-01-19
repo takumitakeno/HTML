@@ -18,13 +18,30 @@
 }
 
 .blog{
-	margin: 50px  ;
+	margin: 50px auto;
 	width: 840px;
 }
 
-.blog-box{
+.blog-box-1{
 	padding-bottom: 30px;
 	border-bottom: 1px solid silver;
-	margin:-bottom:30px;
+}
+
+.blog-box-2{
+	margin-top:30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid silver;
+}
+
+.blog-box-3{
+	margin-top:30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid silver;
+}
+
+.blog-box-4{
+	margin-top:30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid silver;
 }
 
