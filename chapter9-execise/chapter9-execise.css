@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cleafix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-box{
+	width: 960px;
+	margin:50px 0;
+}
+
+.main-box1 {
+	width: 280px;
+	padding: 10px;
+	border: 1px solid gray;
+	
+}
+.main-box2{
+	width: 280px;
+	border: 1px solid block;
+	f
+}
